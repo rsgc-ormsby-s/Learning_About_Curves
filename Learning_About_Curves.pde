@@ -13,5 +13,8 @@ line(350, 100, 350, 300); //right
 beginShape();
 vertex(100, 350);
 vertex(500, 350);
-vertex(300, 450);
+curveVertex(550, 100);// "Right Handle" for Curve
+curveVertex(500, 350);// Real Start of Curve
+curveVertex(100, 350);//Real End of Curve
+curveVertex(50, 100);
 endShape(CLOSE);
