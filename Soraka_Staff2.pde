@@ -11,7 +11,7 @@ void draw() {
   // Clear the Background
   background(34);
   // Runs in a Loop
-  //Make a Soraka Staff
+  //Make a Crescent Moon
   beginShape();
   vertex(100, 350);
   vertex(500, 350);
