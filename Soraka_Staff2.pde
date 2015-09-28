@@ -11,12 +11,7 @@ void draw() {
   // Clear the Background
   background(34);
   // Runs in a Loop
-  //Make the Eyes
-  strokeWeight(10);
-  line(250, 100, 250, 300); //left
-  line(350, 100, 350, 300); //right
-
-  //Make the Smile
+  //Make a Soraka Staff
   beginShape();
   vertex(100, 350);
   vertex(500, 350);
